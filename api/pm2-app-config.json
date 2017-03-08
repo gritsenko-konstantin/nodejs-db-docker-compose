@@ -1,0 +1,14 @@
+{
+  "apps": [
+    {
+      "name": "api-example",
+      "script": "bin/www",
+      "cwd": "/app",
+      "max_restarts": 3,
+      "min_uptime": 240000,
+      "kill_timeout": 10000,
+      "exec_mode": "fork",
+      "instances": 1
+    }
+  ]
+}
